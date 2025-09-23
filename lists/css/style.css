@@ -1,0 +1,39 @@
+body{
+    background: pink;
+}
+
+h1{
+    color: purple;
+    text-align: center;
+}
+
+h2{
+    color: purple;
+    text-align: left;
+}
+
+ol{
+    list-style: numeric;
+}
+
+ol ol{
+    list-style-type: upper-roman;
+    
+}
+
+ul{
+    list-style: square;
+}
+
+ul ul{
+    list-style: circle;
+}
+
+dt{
+    color: #4259d3
+}
+
+dd{
+    color: #a21845;
+}
+
