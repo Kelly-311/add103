@@ -1,0 +1,28 @@
+body { 
+    background: rgb(189 218 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav, h1{
+    text-align:center;
+}
+nav a{
+    font-size: larger;
+    color: #8b27a7;
+    padding: 10px 20px;
+    background-color: pink;
+    font-weight:bold;
+    text-decoration:none;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: 2px solid pink;
+}
+
+nav a:hover{
+    color: pink;
+    background: #8b27a7
+}
+
+a{
+    color: #8b27a7;
+    font-size: x-large
+}
