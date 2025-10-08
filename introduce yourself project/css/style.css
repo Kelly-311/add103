@@ -1,0 +1,201 @@
+body {
+   background-image: url('../images/background.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+}
+h1 {
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 2.5em;
+}
+
+h2 {
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+div.container#nav-bar {
+   width: 35%;
+   margin: 0 auto;
+   padding: 30px;
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
+   text-align: center;
+}
+
+
+nav a {
+   margin: 40px;
+   text-decoration: none;
+   color: #8b5aff;
+   font-weight: bold;
+   padding: 10px;
+   background-color: white;
+   border-radius: 10px;
+   border: 2px solid #8b5aff;
+}
+
+nav a:hover {
+   background-color: #8b5aff;
+   color: white;
+}
+
+#intro {
+   margin: 20px;
+   padding: 20px;
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
+   text-align: left;
+   width: 55%;
+   line-height: 1.5;
+   float: right;
+   transform: translateY(-800px);
+}
+
+#dog {
+   display: block;
+   margin: 100px;
+   width: 450px;
+   height: 600px;
+   border-radius: 50%;
+   border: 4px solid #8b5aff;
+   float: left;
+   transform: translateY(-180px);
+}
+
+
+div.container#sky {
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
+   padding: 5px;
+   margin: 0px auto;
+   width: 33%;
+   float: left;
+   border: #8b5aff 2px solid;
+
+}
+
+#sky-image {
+   float: left;
+   width: 350px;
+   height: 200px;
+}
+
+#sky-text {
+   clear: left;
+   width: 350px;
+   transform: translateX(80px);
+   line-height: 1.5;
+}
+
+div.container#genshin {
+   background: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
+   padding: 5px;
+   margin: 0px auto;
+   width: 30%;
+   border: #8b5aff 2px solid;
+}
+
+#genshin-image {
+   float: center;
+   width: 250px;
+   height: 300px;
+}
+
+#genshin-text {
+   line-height: 1.5;
+   clear: center;
+   width: 250px;
+   margin-top: -500px;
+   margin:auto;
+}
+
+div.container#cookie-runner {
+   background: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
+   padding: 5px;
+   margin: 0px auto;
+   width: 33%;
+   float: right;
+   border: #8b5aff 2px solid;
+   margin-top: -945px;
+}
+
+#cookie-runner-image {
+   float: right;
+   width: 325px;
+   height: 150px;
+}
+
+#cookie-runner-text {
+   line-height: 1.5;
+   width: 325px;
+   clear: right;
+   margin-top: -200px;
+   transform: translateX(100px);
+}
+
+#sky-image, #genshin-image, #cookie-runner-image {
+   padding: 85px;
+}
+
+#watercolor {
+   background: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
+   padding: 40px;
+   border: #8b5aff 2px solid;
+   float: center;
+   width: 90%;
+   margin-left: 30px;
+
+}
+
+#watercolor-image {
+   width: 400px;
+   height: 250px;
+   margin-left: 20px;
+   margin-top: -25px;
+   clear: left;
+   border: #8b5aff 2px solid;
+}
+
+#watercolor-text {
+   width: 800px;
+   line-height: 1.5;
+   clear: left;
+   margin-top: -200px;
+   margin-left: 500px;
+   transform: translateY(-50px);
+}
+
+#acrylic {
+   background: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
+   padding: 40px;
+   border: #8b5aff 2px solid;
+   width: 90%;
+   float: center;
+   height: 265px;
+   margin-left: 30px;
+}
+
+#acrylic-image {
+   width: 250px;
+   height: 300px;
+   margin-left: 20px;
+   margin-top: -25px;
+   clear: left;
+   border: #8b5aff 2px solid;
+   float: right;
+}
+
+#acrylic-text {
+   width: 1500px;
+   line-height: 1.5;
+   margin-left: 50px;
+}
+
+#watercolor, #acrylic {
+   margin: 30px;
+}
