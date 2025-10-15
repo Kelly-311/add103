@@ -1,0 +1,121 @@
+/*Playfair Display, Roboto Slab*/
+
+body {
+    background-color: #9A89E6;
+}
+
+h1,h2,h3,p {
+    color: #37000A;
+}
+
+h1,h2,h3 {
+    font-family: Playfair Display, serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: #B3C2F2;
+    width: 80%;
+    margin: 10px auto;
+}
+
+nav {
+    text-align: center;
+    line-height: 3;
+}
+
+nav a, .button {
+    text-decoration: none;
+    color: #37000A;
+    font-weight: bold;
+    padding: 10px;
+    background: #9fb0e7;
+    border: 2px solid #37000A;
+    
+}
+
+nav a:hover, .button:hover {
+    background: #37000A;
+    color: #B3C2F2;
+    transition: 0.3s;
+}
+
+aside {
+    clear: both;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    overflow: auto;
+    border: 2px solid #9000B3;
+    margin-right: 10px;
+}
+
+main {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+header, footer {
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+
+img {
+    padding: 30px;
+    background: #9000B3;
+    width: 30%;
+}
+
+
+#dummy-image {
+    width: 30%;
+    float: right;
+}
+
+#fontaine-img {
+    width: 30%;
+    float: right;
+}
+
+#nod-krai-img {
+    width: 30%;
+    float: right;
+}
+
+@layer reset {
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i,
+    center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+
+}
