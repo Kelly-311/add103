@@ -1,0 +1,45 @@
+body {
+  background-image: url(/images/birds.jpg), url(/images/background.jpg);
+  background-position: right bottom, center center;
+  background-repeat: no-repeat, repeat;
+  background-size: 10%, cover;
+  margin-bottom: 200px;
+}
+
+
+
+div { 
+    background-image: linear-gradient(to right, rgba(247, 179, 232), rgba(150, 191, 229));
+    border-radius: 20px;
+
+}
+
+div .row {
+    column-count: 3;
+column-gap: 20px;
+column-count: 3;
+column-gap: 20px;
+column-count: 3;
+column-gap: 20px;
+  border: 10px solid transparent; 
+  padding: 15px;
+  border-image: url(/images/border.png) 30 round;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 4px 4px rgba(255, 0, 0, 0.3);
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px rgba(239, 239, 151)
+    
+}
+#daylight-prairie-img, #forest-img, #manta-img {
+    width: 95.5%;
+     border: 10px solid transparent; /* Required for border-image */
+  padding: 15px;
+  border-image: url(/images/border.png) 30 round;
+}
+     
