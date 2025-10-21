@@ -1,0 +1,47 @@
+:root {
+   --dark-primary-color: #303F9F;
+   --light-primary-color: #C5CAE9;
+   --primary-color: #3F51B5;
+   --text-icons: #FFFFFF;
+   --accent-color: #FF4081;
+   --primary-text: #212121;
+   --secondary-text: #757575;
+   --divider-color: #BDBDBD;
+   --heading-font: 'Times New Romen, sans-serif';
+   --text-font: 'Arial , sans-serif';
+}
+
+body {
+   font-size: 1.3em;
+   font-family: var(--text-font);
+   line-height: 1.5;
+   background-color: var(--dark-primary-color);
+}
+
+.container {
+   width: 80%;
+   max-width: 1200px;
+   margin: 10px auto;
+   background-color: var(--light-primary-color);
+   color: var(--primary-text);
+   border-radius: 20px;
+   border: 5px solid var(--accent-color);  
+   padding: 15px;
+}
+
+h1, h2 { 
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+h1{ 
+    background: var(--light-primary-color);
+    color: var(--primary-text);
+    border-radius: 20px;
+    border: 5px solid var(--accent-color)
+}
+
+footer {
+    color: var(--text-icons)
+}
+
