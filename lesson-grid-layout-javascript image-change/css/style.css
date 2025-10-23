@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(236, 184, 222);
+}
+
+h1 {
+    text-align: center;
+    background-color: ivory;
+    border-radius: 20px;
+    border: 2px solid rgb(69, 64, 212);
+}
+
+#brother-img {
+    width: 60%;
+}
+
+#flame-img {
+    width: 100%;
+    
+}
+
+#statue-img {
+    width: 105%;
+}
+
+#sword-img {
+    width: 100%;
+}
+
+#furina-img {
+    width: 100%;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 40px;
+    padding: 20px;
+    width: 90%;
+    background: ivory;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+    margin: 20px auto;
+    border: 2px solid rgb(69, 64, 212);
+
+}
+
+#main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+    background-color: ivory;
+    background-size: contain;
+    background-position: center;
+    width: 80%;
+    border-radius: 20px;
+    border: 2px solid rgb(69, 64, 212);
+}
+
+#large {
+    width: 30%;
+}
