@@ -1,0 +1,341 @@
+:root {
+   --dark-primary-color: #3E8AF4;
+   --light-primary-color: #C6D8FF;
+   --accent-color: #A72584;
+   --primary-text: #430E30;
+   --secondary-text: #430E30;
+   --divider-color: #6B5CA5;
+   --heading-font: 'young serif', serif;
+   --text-font: 'Kalam', sans-serif;
+}
+
+body {
+    background: var(--dark-primary-color);
+}
+
+p {
+    font-family: var(--text-font);
+    color: var(--primary-text);
+    line-height: 1.6;
+}
+
+header {
+    background: var(--light-primary-color);
+    color: var(--primary-text);
+    padding: 1rem;
+    text-align: center;
+    font-family: var(--heading-font);
+    width: 100%;
+    margin-bottom: 20px;
+    border: 4px solid transparent; /*Code for adding border gradient to images and text*/
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+}
+
+div.container #main-nav{
+    background: var(--light-primary-color);
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer{
+  position: fixed; /*Code for keeping footer at bottom*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+} 
+
+nav a {
+    font-family: var(--text-font);
+    padding: 20px;
+    margin: 30px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: var(--primary-text);
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-text);
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-text);
+    text-align: center;
+}
+
+#home-logo {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--light-primary-color);
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    color: var(--primary-text);
+    font-family: var(--text-font);
+}
+
+#home-intro {
+    font-family: var(--text-font);
+    color: var(--primary-text);
+    text-align: left;
+    padding: 20px;
+    background-color: var(--light-primary-color);
+    float: right;
+    width: 45%;
+    margin-right: 60px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+
+}
+
+#springvale-image {
+    width: 30%;
+    float: left;
+    margin-left: 195px;
+    margin-top: 40px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    background-color: var(--light-primary-color);
+    padding: 10px;
+}
+#springvale-caption {
+    float: left;
+    clear: left;
+    margin-left: 370px;
+    padding: 10px;
+    background-color: var(--light-primary-color);
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+}
+
+#springvale-intro{
+    font-family: var(--text-font);
+    color: var(--primary-text);
+    text-align: left;
+    background-color: var(--light-primary-color);
+    float: left;
+    clear: left;
+    width: 25.8%;
+    margin-left: 240px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    margin-top: 20px;
+    background-color: var(--light-primary-color);
+    padding: 20px;
+}
+
+#port-ormos-image {
+    width: 30%;
+    float: right;
+    margin-right: 225px;
+    margin-top: 40px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    position: relative;
+    bottom: 350px;
+    background-color: var(--light-primary-color);
+    padding: 10px;
+}
+#port-ormos-caption {
+    float: right;
+    clear: right;
+    margin-right: 400px;
+    padding: 10px;
+    background-color: var(--light-primary-color);
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    position: relative;
+    bottom: 350px;
+}
+
+#port-ormos-intro{
+    font-family: var(--text-font);
+    color: var(--primary-text);
+    text-align: left;
+    padding: 20px;
+    background-color: var(--light-primary-color);
+    float: right;
+    clear: right;
+    width: 25.8%;
+    margin-right: 260px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    margin-top: 20px;
+    position: relative;
+    bottom: 350px;
+}
+
+#fontaine-figure {
+    text-align: center;
+    background-color: var(--light-primary-color);
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    padding: 10px;
+}
+
+#fontaine-image {
+    width: 60%;
+    margin-top: 20px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+}
+
+#fontaine-intro {
+    font-family: var(--text-font);
+    color: var(--primary-text);
+    text-align: left;
+    padding: 20px;
+    background-color: var(--light-primary-color);
+    margin: auto;
+    width: 60%;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    margin-top: 20px;
+}
+
+#hiisi-intro {
+    font-family: var(--text-font);
+    color: var(--primary-text);
+    text-align: left;
+    padding: 20px;
+    background-color: var(--light-primary-color);
+    margin: auto;
+    width: 60%;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    margin-top: 20px;
+}
+
+#hiisi-figure {
+    text-align: center;
+    background-color: var(--light-primary-color);
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#hiisi-image {
+    width: 60%;
+    margin-top: 20px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+}
+
+#tsurumi-image {
+    width: 30%;
+    margin-top: 20px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    float: left;
+    background-color: var(--light-primary-color);
+    padding: 10px;
+    margin-left: 80px;
+}
+
+#tsurumi-Island-caption {
+    float: left;
+    clear: left;
+    margin-left: 230px;
+    padding: 10px;
+    background-color: var(--light-primary-color);
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+}
+
+#tsurumi-intro{
+    font-family: var(--text-font);
+    color: var(--primary-text);
+    text-align: left;
+    padding: 20px;
+    background-color: var(--light-primary-color);
+    width: 40%;
+    margin-left: 100px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    margin-top: 20px;
+    float: right;
+    position: relative;
+    bottom: 230px;
+    right: 200px;
+}
+
+#enkanomiya-image {
+    width: 30%;
+    margin-top: 20px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    float: right;
+    clear: right;
+    background-color: var(--light-primary-color);
+    padding: 10px;
+    margin-right: 80px;
+    position: relative;
+    bottom: 100px;
+}
+
+#enkanomiya-caption {
+    float: right;
+    clear: right;
+    margin-right: 230px;
+    padding: 10px;
+    background-color: var(--light-primary-color);
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    position: relative;
+    bottom: 100px;
+}
+
+#enkanomiya-intro{
+    font-family: var(--text-font);
+    color: var(--primary-text);
+    text-align: left;
+    padding: 20px;
+    background-color: var(--light-primary-color);
+    width: 40%;
+    margin-right: 100px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, var(--accent-color), var(--divider-color)) 1;
+    border-image-slice: 1;
+    margin-top: 20px;
+    float: left;
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+}
