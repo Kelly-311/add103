@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(216, 216, 246);
+}
+h1 {
+    color: rgb(54, 54, 102);
+    text-align: center;
+}
+
+div.container {
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 5px solid rgb(54, 54, 102);
+    text-align: left;
+    border-radius: 10px;
+}
+
+h2 {
+    color: rgb(54, 54, 102);
+    font-size: 18px;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+#username, #uid, #account-level, #message {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(54, 54, 102);
+    border-radius: 4px;
+    background-color: ivory;
+}
+
+#account-problem {
+    margin: 8px 0;
+    border: 2px solid rgb(54, 54, 102);
+}
+
+#help-improve {
+    margin: 8px 0;
+    border: 2px solid rgb(54, 54, 102);
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#submit-button, #reset-button {
+    background-color: rgb(54, 54, 102);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#submit-button:hover, #reset-button:hover {
+    background-color: rgb(216, 216, 246);
+    color: black;
+    border-color: rgb(54, 54, 102);
+    
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(54, 54, 102);
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: ivory;
+}

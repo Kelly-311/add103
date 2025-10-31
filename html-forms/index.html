@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Genshin Impact Account Help application</h1>
+    <div class="container">
+    <h2>Account Information</h2>
+    <form action="#" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required autofocus>
+        <br>
+        <label for="uid">UID:</label>
+        <input type="text" id="uid" name="uid" required>
+        <br>
+        <label for="account-level">Account level:</label>
+        <input type="text" id="account-level" name="account-level" required>
+        <br>
+        <h2>Account Problems</h2>
+        <label for="account-problem">Character builds:</label>
+        <input type="checkbox" id="account-problem" name="account-problem">
+        <br>
+        <label for="account-problem">Endgame mode troubles:</label>
+        <input type="checkbox" id="account-problem" name="account-problem">
+        <br>
+        <label for="account-problem">Exploration issues:</label>
+        <input type="checkbox" id="account-problem" name="account-problem">
+        <br><label for="account-problem">Domain issues:</label>
+        <input type="checkbox" id="account-problem" name="account-problem">
+        <br>
+        <label for="account-problem">What areas do you want help with?</label>
+        <select name="help-improve" id="help-improve">
+          <option value="character-building">-Blank-</option>
+          <option value="character-building">Character Building</option>
+          <option value="endgame-planning">Endgame Planning</option>
+          <option value="exploration-planning">Exploration Planning</option>
+          <option value="what-domains-to-farm">What Domains to Farm</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
+        <h2>Additional Information/other Ways We Can Help Out</h2>
+        <textarea name="message" rows="5" cols="15">
+
+        </textarea>
+        <br>
+        <input type="submit" value="Submit" id="submit-button">
+        <input type="reset" value="Reset" id="reset-button">
+    </form>
+    </div>
+</body>
+</html>
