@@ -1,0 +1,33 @@
+body {
+    background-color: ivory;
+}
+
+.container-fluid {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.col-md-6 {
+    width: 33.33%;
+  padding: 10px;
+  float: center;
+}
+
+.display-1 {
+    text-align: center;
+}
+
+#passage-image {
+    width: 100%;
+}
+
+#remembrance-image {
+    width: 100%;
+}
+
+#prophecy-image {
+    width: 70%;
+    float: right;
+}
+
