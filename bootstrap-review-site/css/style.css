@@ -1,0 +1,181 @@
+body {
+   background-image: url("../images/background.png");
+   background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+    background-color: rgb(157, 192, 240);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid rgb(196, 168, 221);
+    background-color: ivory;
+    border-radius: 20px;
+}
+
+#useful-term-info {
+    background-color: ivory;
+    border: 5px solid rgb(196, 168, 221);
+    border-radius: 20px;
+    display: block;
+    float: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-fluid {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.btn-primary, .btn-secondary.mb-5 {
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-primary{
+    display: block;
+    float: left;
+    margin: 30px;
+    background-color: rgb(196, 168, 221);
+    color: rgb(0, 0, 0);
+    border: 2px solid ivory;
+}
+
+.btn-secondary.mb-5 {
+    width: 100%;
+    background-color: rgb(157, 192, 240);
+    color: ivory;
+    border: 2px solid ivory;
+    color: black;
+}
+
+.offcanvas {
+  z-index: 1200 !important; /* higher than carousel */
+}
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: rgb(196, 168, 221);
+}
+
+.offcanvas-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.carousel,
+.carousel-item {
+  z-index: 1;
+}
+
+.carousel-item {
+  transition: transform 0.5s ease;
+   width: 1000px; /* Desired width */
+   height: 850px; /* Desired height */ 
+}
+
+.carousel-caption {
+    background-color: ivory;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#carousel-home {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#page-header{ 
+    background-color: ivory;
+    border-color: 2px solid (196, 168, 221);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.btn-secondary {
+    padding: 10px;
+    background-color: blue;
+    color: ivory;
+}
+
+.btn-primary:hover {
+    background-color: ivory;
+    color: blue;
+}
+
+#homepage-heading {
+    background-color: ivory;
+    border: 2px solid rgb(196, 168, 221);
+    padding: 10px;
+}
+
+.col-md-6 {
+    padding: 10px;
+}
+
+.display-1 {
+    text-align: center;
+}
+
+#passage-image {
+   width: 100%;
+    height: 100%;
+}
+
+#remembrance-image {
+    width: 100%;
+    height: 100%;
+}
+
+#prophecy-image {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+#water-prophet-image, #earth-prophet-image, #air-prophet-image, #fire-prophet-image, #guide-prophet-image {
+    width: 30%;
+    border: 10px solid rgb(196, 168, 221);
+
+}
+
+#oddball-outcast-image, #tumbling-troublemaker-image, #melancholy-mope-image, #overactive-overachiever-image, #guide-passage-image {
+    width: 30%;
+    border: 10px solid rgb(196, 168, 221);
+}
+
+#bereft-veteran-image, #pleading-child-image, #tiptoeing-tea-brewer-image, #wounded-warrior-image, #remembrance-ultimate-guide-image {
+    width: 30%;
+    border: 10px solid rgb(196, 168, 221);
+}
+
+#guide-dreams-image, #spinning-mentor-image, #dancing-performer-image, #peeking-postman-image, #bearhug-hermit-image {
+     width: 30%;
+    border: 10px solid rgb(196, 168, 221);
+}
+
+#performance-ultimate-guide-image, #frantic-stagehand-image, #forgetful-storyteller-image, #mellow-musician-image, #modest-dancer-image {
+     width: 30%;
+    border: 10px solid rgb(196, 168, 221);
+}
+
